@@ -1,0 +1,18 @@
+# me sine
+[begin] (My root meny)
+[encoding] {UTF-8}
+	#[exec] (xterm) {LANG=en_US.UTF-8 xterm}
+	[exec] (xterm) {xterm}
+ [submenu] (Terminals)
+  [exec] (rl Root) {xterm -e sudo bash }
+ [end]
+ [submenu] (Others)
+	[exec] (Xload) {xload}
+	[exec] (Xosview) {xosview}
+	[exec] (Xclock) {xclock -update 1}
+	[exec] (Reload xmodmap) {xmodmap ~/.Xmodmap}
+        [exec] (Run) {fbrun}
+ [end]
+ [exit] (Exit)
+[endencoding]
+[end]

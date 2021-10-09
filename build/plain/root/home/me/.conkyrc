@@ -1,0 +1,39 @@
+conky.config = {
+	alignment = 'top_left',
+	background = false,
+	draw_shades = false,
+	draw_graph_borders = true,
+	default_color = 'darkblue',
+	double_buffer = yes,
+	font = '8x13',
+	use_xft = yes,
+	gap_x = 50,
+	gap_y = 50,
+	update_interval = 1.0,
+	cpu_avg_samples = 5,
+	net_avg_samples = 5, 
+}
+
+conky.text = [[
+#hello
+${color black} $nodename - $kernel $time 
+# ${acpifan}
+$hr
+Battery: $color ${battery BAT0} ${battery_time BAT0}
+${color darkgreen}${battery_bar BAT0}
+${color black}Uptime:$color $uptime
+${color black}Freq:$color $freq MHz  ${acpitemp}°C
+${color black}CPU Usage:$color $cpu% 
+${cpubar 8}
+${cpugraph 00FF00 FF0000 -t}
+$hr
+Disk io: $diskio
+${diskiograph /dev/sda 00FF00 FF0000 -t}
+#${color black}Swap Usage:$color $swap/$swapmax - $swapperc% 
+#${swapbar 8}
+${color black}WLAN:  $color ${addrs wlp5s0} ${wireless_essid wlp5s0} ${wireless_bitrate wlp5s0}
+${color black}Up: ${upspeedf wlp5s0} kB/s
+${color}${upspeedgraph  wlp5s0 00FF00 FF0000 -t}
+${color black}Down: ${downspeedf wlp5s0} kB/s
+${color}${downspeedgraph wlp5s0 00FF00 FF0000 -t}
+]]

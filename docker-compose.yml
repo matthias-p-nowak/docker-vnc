@@ -1,0 +1,35 @@
+version: "3.9"
+
+services: 
+  plain:
+    build:
+      context: ./build/plain
+    image: plain-fedora
+    networks:
+      om_net:  
+        aliases:
+          - plain.om
+      db_net:
+        aliases:
+          - plain.db
+    volumes:
+      - shared:/shared
+      - ./input:/input
+      - ./output:/output
+
+
+
+networks:
+  om_net:
+    internal: true
+  db_net:
+    internal: true
+#  sip_net:
+#    internal: true
+#  int_net:
+#    internal: true
+      
+volumes:
+  shared:
+  input:
+  output:

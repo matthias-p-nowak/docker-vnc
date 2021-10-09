@@ -1,0 +1,23 @@
+XXkb.controls.two_state: no
+
+XXkb.button.geometry: 20x15-60+2
+XXkb.button.image.1: en.xpm
+XXkb.button.image.2: no.xpm
+XXkb.button.image.3: de.xpm
+XXkb.button.image.4:
+
+XXkb.*.label.foreground: white
+XXkb.*.label.background: blue4
+XXkb.*.label.enable: no
+
+XXkb.mainwindow.enable: false
+XXkb.mainwindow.enable: yes
+XXkb.mainwindow.appicon: yes
+XXkb.mainwindow.type: tray
+XXkb.mainwindow.in_tray: true
+XXkb.mainwindow.geometry: 16x16-0-0
+XXkb.mainwindow.image.1: en.xpm
+XXkb.mainwindow.image.2: no.xpm
+XXkb.mainwindow.image.3: de.xpm
+
+XXkb.button.enable: no

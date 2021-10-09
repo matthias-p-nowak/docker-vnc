@@ -1,0 +1,8 @@
+# me sine
+[begin] (My root meny)
+[encoding] {UTF-8}
+		[exec] (docker) {LANG=en_US.UTF-8 qterminal -e ssh -v -Y root@docker}
+		[exec] (win8) {vncviewer win8}
+		[exec] (testing) {qterminal -e ssh -v -Y root@testing.xen}
+[endencoding]
+[end]

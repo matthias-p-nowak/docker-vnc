@@ -1,0 +1,26 @@
+XTerm*selectToClipboard:true
+Mrxvt.transparent: false
+Mrxvt.termName: xterm
+Mrxvt.background: white
+Mrxvt.fading: 10
+Mrxvt.foreground: black
+Mrxvt.itabBackground: lightgray
+Mrxvt.tabBackground: white
+Mrxvt.tabForeground: darkgreen
+Mrxvt.ufBackground: yellow
+! Mrxvt.xft: true
+Mrxvt.autohideTabbar: true
+Mrxvt.highlightTabOnBell: true
+Mrxvt.syncTabTitle: true
+! Mrxvt.showMenu: true
+! Mrxvt.transparentScrollbar: true
+Mrxvt.internalBorder: 50px
+Mrxvt.boerderWidth: 10
+!XTerm*utf8: on
+!XTerm.VT100.utf8Fonts.font: 9x15
+!XTerm*utf8Fonts: true
+!XTerm*utf8-mode: true
+!XTerm*utf8-fonts: true
+!XTerm*background: white
+XTerm*locale: true
+XTerm*toolbar: false

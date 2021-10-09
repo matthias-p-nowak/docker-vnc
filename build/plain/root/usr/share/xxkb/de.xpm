@@ -1,0 +1,27 @@
+/* XPM */
+static char *de[] = {
+/* columns rows colors chars-per-pixel */
+"20 12 9 1 ",
+"  c black",
+". c #1B0000",
+"X c #C20000",
+"o c #DD0000",
+"O c #DF0000",
+"+ c #E11900",
+"@ c #FBB500",
+"# c #FFCE00",
+"$ c #FFD000",
+/* pixels */
+"                    ",
+"                    ",
+"                    ",
+"....................",
+"XXXXXXXXXXXXXXXXXXXX",
+"OOOOOOOOOOOOOOOOOOOO",
+"OOOOooooooooOOOOoooo",
+"++++++++++++++++++++",
+"@@@@@@@@@@@@@@@@@@@@",
+"$$$$$$$$$$$$$$$$$$$$",
+"####################",
+"####################"
+};
